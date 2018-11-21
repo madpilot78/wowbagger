@@ -1,2 +1,2 @@
 # wowbagger
-Basic PHPUnit skeleton to test random PHP code
+Basic PHPUnit skeleton to test random PHP code.
