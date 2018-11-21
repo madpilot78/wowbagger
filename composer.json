@@ -1,0 +1,29 @@
+{
+    "name": "madpilot78/wowbagger",
+    "description": "Basic PHPUnit skeleton to test random PHP code",
+    "keywords": [
+        "php",
+        "phpunit",
+        "test"
+    ],
+    "type": "project",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Guido Falsi",
+            "email": "mad@madpilot.net"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "madpilot78\\wowbagger\\": "src/",
+            "madpilot78\\wowbagger\\tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
+}
