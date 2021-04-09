@@ -16,7 +16,8 @@
     ],
     "require": {
         "phpunit/phpunit": "^9.0",
-        "nesbot/carbon": "^2.46"
+        "nesbot/carbon": "^2.46",
+        "symfony/var-dumper": "^5.2"
     },
     "autoload": {
         "psr-4": {
