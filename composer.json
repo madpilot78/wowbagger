@@ -15,7 +15,8 @@
         }
     ],
     "require": {
-        "phpunit/phpunit": "^9.0"
+        "phpunit/phpunit": "^9.0",
+        "nesbot/carbon": "^2.46"
     },
     "autoload": {
         "psr-4": {
