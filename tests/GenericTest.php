@@ -2,7 +2,9 @@
 
 namespace madpilot78\wowbagger\tests;
 
-class GenericTest extends \PHPUnit\Framework\TestCase
+use PHPUnit\Framework\TestCase;
+
+class GenericTest extends TestCase
 {
     /**
      * Simple example test.
