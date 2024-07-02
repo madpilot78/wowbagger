@@ -10,3 +10,9 @@ updates:
       timezone: Europe/Rome
     allow:
       - dependency-type: all
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+      time: 05:00
+      timezone: Europe/Rome
